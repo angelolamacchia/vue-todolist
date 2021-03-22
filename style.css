@@ -9,6 +9,7 @@ body {
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    font-size: 18px;
 }
 
 #logo {
@@ -60,4 +61,10 @@ body {
     float: right;
     height: 30px;
     line-height: 30px;
+    font-size: 20px;
+}
+
+.todo_container ul i:hover {
+    color: red;
+    transition: color 500ms;
 }
